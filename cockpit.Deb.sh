@@ -9,3 +9,5 @@ sudo systemctl start cockpit
 systemctl enable cockpit.socket
 firewall-cmd --permanent --zone=public --add-service=cockpit
 firewall-cmd --reload
+
+
